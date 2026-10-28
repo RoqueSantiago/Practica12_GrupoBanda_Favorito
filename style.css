@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, -serif;
+    background-color: #101010;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom: 4px solid #c90024;
+}
+
+header h1 {
+    color: #ff2448;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+header p {
+    color: #cccccc;
+}
+
+nav {
+    background-color: #252525;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff2448;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+article,
+section {
+    background-color: #1b1b1b;
+    padding: 22px;
+    margin: 20px 0;
+    border-left: 4px solid #c90024;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ff2448;
+}
+
+/* Lista de integrantes */
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #ff526c;
+}
+
+footer {
+    background-color: #080808;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #c90024;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 250px;
+    height: 190px;
+    object-fit: cover;
+    border: 2px solid #c90024;
+    border-radius: 8px;
+}
+
+.video {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 2px solid #c90024;
+    border-radius: 8px;
+}

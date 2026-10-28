@@ -103,3 +103,14 @@ footer {
     border: 2px solid #c90024;
     border-radius: 8px;
 }
+
+a {
+    color: #ff4d6d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #a855f7;
+    text-decoration: underline;
+}
